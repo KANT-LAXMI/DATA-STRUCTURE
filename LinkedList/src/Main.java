@@ -26,7 +26,7 @@ public class Main {
         l1.insert(60);
         l1.insert(60, 4);
         l1.display();
-        //l1.reverse();
+        l1.reverse();
         if(l1.getHead() != null && l1.getHead().getNext() != null) {
             l1.reverse(l1.getHead(), l1.getHead().getNext());
         }
